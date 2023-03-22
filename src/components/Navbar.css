@@ -1,0 +1,67 @@
+.lakhey-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    min-width: 100%;
+    background-color: white;
+    padding: 1.5rem 6rem;
+    z-index: 2;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.3);
+}
+
+.lakhey-navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.lakhey-navbar-links-logo {
+    margin-right: 2rem;
+}
+
+.lakhey-navbar-links-logo img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.lakhey-navbar-links-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.lakhey-navbar-links-container p {
+    color: black;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+}
+.lakhey-navbar-links-container p:hover {
+    color: rgba(255, 0, 0, .6);
+    cursor: pointer;
+}
+.active-page {
+    font-weight: 800;
+    color: red;
+}
+.sign-btn {
+    border: 2px solid red;
+    color: red;
+    padding: 4px 8px;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: .8rem;
+    background-color: white;
+    margin-left: 1rem;
+}
+.sign-btn:hover {
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}

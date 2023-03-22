@@ -1,0 +1,129 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.2);
+    /* background-color: green; */
+    z-index: 3000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-inner {
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10rem;
+    height: 85vh;
+}
+
+.popup-inner .close-btn {
+    position: absolute;
+    top: -1.5rem;
+    right: 0;
+    border: none;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.popup-inner-slide,.popup-inner-img,.popup-inner-detail {
+    height: 30rem;
+    width: 30rem;
+    margin: 1rem;
+}
+.popup-inner-slide {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.popup-inner-slide-img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.popup-inner-slide .popup-inner-slide-img {
+    height: 6rem;
+    width: 6rem;
+    background-color: lightgrey;
+    margin: .5rem 0;
+}
+.popup-inner-detail {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+}
+.popup-inner-detail .product-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.popup-inner-detail .product-price {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    opacity: .8;
+}
+.popup-inner-detail .product-desc {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.product-sizes {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.product-size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    background-color: lightgrey;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.product-colors {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.product-color {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: white;
+}
+.product-color:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+.product-size:hover {
+    cursor: pointer;
+    background-color: darkgray;
+}
+.slide-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.slide-container button {
+    position: relative;
+    width: 1rem;
+    background-color: white;
+    border: none;
+    font-size: 2rem;
+}
+.slide-container button:hover {
+    cursor: pointer;
+}

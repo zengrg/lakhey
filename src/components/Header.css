@@ -1,0 +1,6 @@
+.header-container-trending {
+    display: flex;
+}
+.header-container-trending > * {
+    width: 50%;
+}
