@@ -6,7 +6,6 @@
 }
 .product-container:hover {
     cursor: pointer;
-    opacity: .9;
 }
 .product-container {
     height: 30rem;
